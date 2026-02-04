@@ -104,7 +104,7 @@ Missing values in the dataset are handled using Mode Imputation.
 In this method, missing values are replaced with the most frequently occurring value in each feature.
 This method is finalized because when comparing the its standard deviation to original standard deviation its score is low .
 
-**##🔄 Variable Transformation**
+## 🔄 Variable Transformation
 Variable transformation is applied to numerical features to improve data distribution and enhance model performance.
 In this project, transformation techniques are used to reduce skewness and make the data more suitable for machine learning algorithms.
 
@@ -114,33 +114,33 @@ tenure → No transformation (original values retained)
 MonthlyCharges → No transformation (original values retained)
 TotalCharges → Yeo-Johnson Transformation
 
-**## 🚨 Outlier Handling**
+## 🚨 Outlier Handling
 Outliers are handled using the **Interquartile Range (IQR) Capping** method.
 In this technique, lower and upper bounds are calculated using Q1 and Q3. Values falling outside these bounds are capped to the nearest limit instead of being removed.
-# Why IQR Capping ??
+**Why IQR Capping ??**
 * Preserves all data points
 * Reduces impact of extreme values
 * Improves model stability
 
-**## 🎯 Feature Selection**
+## 🎯 Feature Selection
 Feature selection is applied to **numerical features only** to remove uninformative variables and improve model performance.
 In this project, **variance-based feature selection techniques** are used.
 # 📌 Techniques Used:
 
 **1. Constant Feature Removal**
-* Features with **zero variance** are removed
+* Features with zero variance are removed
 * Such features contain the same value for all records and provide no predictive power
 **2. Quasi-Constant Feature Removal**
-* Features with **very low variance** are removed using a threshold
+* Features with very low variance are removed using a threshold
 * These features carry very little information and may introduce noise
-Both techniques are implemented using **VarianceThreshold** and are applied only on the training data. The same selected features are then applied to the test data to avoid data leakage.
+Both techniques are implemented using VarianceThreshold and are applied only on the training data. The same selected features are then applied to the test data to avoid data leakage.
 
 ## 🔠 Categorical to Numerical Conversion
 Categorical variables are converted into numerical format to make the data suitable for machine learning models.
 In this project:
 * **One-Hot Encoding** is used for nominal categorical features
 * **Ordinal Encoding** is used for ordinal categorical features
-Encoding is applied by fitting on the **training data** and transforming both training and test datasets to avoid data leakage.
+Encoding is applied by fitting on the training data and transforming both training and test datasets to avoid data leakage.
 This step ensures the dataset is fully numerical and ready for further processing and model training.
 
 ## ⚖️ Data Balancing
@@ -156,10 +156,6 @@ StandardScaler transforms the data so that features have:
 The scaler is **fitted on the balanced training data** and then applied to the test data to prevent data leakage.
 The trained scaler is saved as a `.pkl` file for use during deployment.
 
-Got it 👍
-Here is the **short, clean, README-ready “Model Training” section**, mentioning **only the selected model**.
-
----
 
 ## 🤖 Model Training
 The churn prediction model is trained using **Logistic Regression**, which is selected as the final model for this project.
@@ -182,9 +178,10 @@ In this project, **GridSearchCV** is used to find the best combination of hyperp
 * Solver (`liblinear`, `saga`)
 * Maximum number of iterations (`max_iter`)
 
-**##🚀 Deployment**
+## 🚀 Deployment
 The trained churn prediction model is deployed using Render.com.
 The saved Logistic Regression model (.pkl), along with the scaler and encoders, is loaded in the deployment environment to make predictions on new customer data.
+
 **Deployemet link** :
 
 
