@@ -1,0 +1,5 @@
+2026-02-03 21:36:57,100 - INFO - Best transformation for SeniorCitizen : log
+2026-02-03 21:36:57,115 - INFO - Best transformation for tenure : original
+2026-02-03 21:36:57,170 - INFO - Best transformation for MonthlyCharges : original
+2026-02-03 21:36:57,214 - INFO - Best transformation for TotalCharges : yeo
+2026-02-03 21:36:57,226 - INFO - Final transformed columns : Index(['tenure', 'MonthlyCharges', 'SeniorCitizen_log', 'TotalCharges_yeo'], dtype='str')

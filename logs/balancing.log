@@ -1,0 +1,27 @@
+2026-02-03 21:37:04,526 - INFO - ===== Starting AUTO Balancing + Scaling =====
+2026-02-03 21:37:04,527 - INFO - 
+2142    0
+1623    0
+6074    1
+1362    1
+6754    0
+2026-02-03 21:37:04,534 - INFO - Target BEFORE SMOTE:
+Churn
+0    4138
+1    1496
+2026-02-03 21:37:07,472 - INFO - Target AFTER SMOTE:
+Churn
+0    4138
+1    4138
+2026-02-03 21:37:07,472 - INFO - Shape after SMOTE: (8276, 28)
+2026-02-03 21:37:07,472 - INFO - Starting feature scaling using StandardScaler
+2026-02-03 21:37:07,511 - INFO - Scaled cols :    tenure_iqr  MonthlyCharges_iqr  TotalCharges_iqr  gender_Male  Partner_Yes  ...  Sim_Providers_Jio  Sim_Providers_Vodafone  InternetService_Od  Contract_Od  PaymentMethod_Od
+0   -0.293725           -0.110179         -0.335984    -1.076772    -0.936318  ...          -0.606963                1.754403           -1.277057     0.632292          1.402699
+1    1.091315            1.016478          1.398326    -1.076772    -0.936318  ...          -0.606963               -0.633587            0.222971     1.948746         -1.662226
+2   -1.133143           -1.552022         -0.936554     1.030294     1.171133  ...          -0.606963               -0.633587           -1.277057    -0.684162          0.381057
+3   -1.007230            0.076146         -0.838467     1.030294    -0.936318  ...          -0.606963               -0.633587            0.222971    -0.684162          0.381057
+4   -1.175114           -0.212919         -0.938041     1.030294    -0.936318  ...          -0.606963               -0.633587           -1.277057     1.948746         -1.662226
+
+[5 rows x 28 columns]
+2026-02-03 21:37:07,512 - INFO - Scaler saved successfully
+2026-02-03 21:37:07,512 - INFO - ===== Balancing + Scaling Completed =====

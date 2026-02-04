@@ -1,0 +1,9 @@
+2026-02-03 21:37:04,308 - INFO - Before Constant FS : (5634, 4)
+2026-02-03 21:37:04,311 - INFO - After Constant FS : (5634, 3)
+2026-02-03 21:37:04,311 - INFO - Remaining columns : ['tenure_iqr', 'MonthlyCharges_iqr', 'TotalCharges_iqr']
+2026-02-03 21:37:04,311 - INFO - ============================================================
+2026-02-03 21:37:04,311 - INFO - Before Quasi-Constant FS : (5634, 3)
+2026-02-03 21:37:04,314 - INFO - After Quasi-Constant FS : (5634, 3)
+2026-02-03 21:37:04,314 - INFO - Remaining columns : ['tenure_iqr', 'MonthlyCharges_iqr', 'TotalCharges_iqr']
+2026-02-03 21:37:04,314 - INFO - ============================================================
+2026-02-03 21:37:04,314 - INFO - Feature selection completed successfully

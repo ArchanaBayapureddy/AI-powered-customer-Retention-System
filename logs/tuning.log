@@ -1,0 +1,4 @@
+2026-02-03 21:37:12,372 - INFO - ===== Starting Logistic Regression Hyperparameter Tuning =====
+2026-02-03 21:38:08,132 - INFO - Best Logistic Regression Params: {'C': 100, 'max_iter': 500, 'penalty': 'l1', 'solver': 'liblinear'}
+2026-02-03 21:38:08,134 - INFO - Best Logistic Regression CV ROC-AUC: 0.8436
+2026-02-03 21:38:08,134 - INFO - ===== Logistic Regression Hyperparameter Tuning Completed =====

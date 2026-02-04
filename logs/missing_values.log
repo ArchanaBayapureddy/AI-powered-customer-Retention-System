@@ -1,0 +1,110 @@
+2026-02-03 21:36:57,012 - INFO - Original STD for TotalCharges: 2263.1515339330313
+2026-02-03 21:36:57,015 - INFO - TotalCharges_mean std: 2261.1418083488907 --- original: 2263.1515339330313
+2026-02-03 21:36:57,022 - INFO - TotalCharges_median std: 2261.445488943014 --- original: 2263.1515339330313
+2026-02-03 21:36:57,028 - INFO - before null values gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        10
+Sim_Providers        0
+dtype: int64
+2026-02-03 21:36:57,031 - INFO - before null values gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        1
+Sim_Providers       0
+dtype: int64
+2026-02-03 21:36:57,036 - INFO - TotalCharges_mode std: 2263.16182003218 --- original: 2263.1515339330313
+2026-02-03 21:36:57,042 - INFO - after null values gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+Sim_Providers        0
+TotalCharges_mode    0
+dtype: int64
+2026-02-03 21:36:57,044 - INFO - after null values gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+Sim_Providers        0
+TotalCharges_mode    0
+dtype: int64
+2026-02-03 21:36:57,046 - INFO - TotalCharges_const std: 2263.1978992156137 --- original: 2263.1515339330313
+2026-02-03 21:36:57,050 - INFO - TotalCharges_arb std: 2263.19969359874 --- original: 2263.1515339330313
+2026-02-03 21:36:57,054 - INFO - TotalCharges_eod std: 2279.1336777762062 --- original: 2263.1515339330313
+2026-02-03 21:36:57,062 - INFO - TotalCharges_rsi std: 2262.466663898214 --- original: 2263.1515339330313
+2026-02-03 21:36:57,066 - INFO - TotalCharges_ffill std: 2262.283364053031 --- original: 2263.1515339330313
+2026-02-03 21:36:57,070 - INFO - TotalCharges_bfill std: 2262.3024221579994 --- original: 2263.1515339330313
+2026-02-03 21:36:57,070 - INFO - ==============================================
+2026-02-03 21:36:57,071 - INFO - STD comparison for column: TotalCharges
+2026-02-03 21:36:57,071 - INFO - mean difference: 2.0097255841405968
+2026-02-03 21:36:57,071 - INFO - median difference: 1.7060449900172898
+2026-02-03 21:36:57,071 - INFO - mode difference: 0.010286099148743233
+2026-02-03 21:36:57,071 - INFO - constant difference: 0.046365282582428335
+2026-02-03 21:36:57,071 - INFO - arbitrary difference: 0.04815966570868113
+2026-02-03 21:36:57,071 - INFO - eod difference: 15.982143843174981
+2026-02-03 21:36:57,071 - INFO - random_sample difference: 0.6848700348173224
+2026-02-03 21:36:57,071 - INFO - ffill difference: 0.8681698800000959
+2026-02-03 21:36:57,071 - INFO - bfill difference: 0.8491117750318153
+2026-02-03 21:36:57,071 - INFO - BEST IMPUTATION METHOD for TotalCharges: mode
+2026-02-03 21:36:57,071 - INFO - ==============================================
+2026-02-03 21:36:57,071 - INFO - Applying best method "mode" on column TotalCharges
+2026-02-03 21:36:57,073 - INFO - Null values after imputation (train): 0
+2026-02-03 21:36:57,073 - INFO - Null values after imputation (test): 0

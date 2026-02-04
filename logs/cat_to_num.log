@@ -1,0 +1,153 @@
+2026-02-03 21:37:04,362 - INFO - Index(['InternetService', 'Contract', 'PaymentMethod', 'gender_Male',
+       'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'Sim_Providers_BSNL', 'Sim_Providers_Jio',
+       'Sim_Providers_Vodafone'],
+      dtype='str')
+2026-02-03 21:37:04,387 - INFO -      InternetService        Contract              PaymentMethod  gender_Male  ...  PaperlessBilling_Yes  Sim_Providers_BSNL  Sim_Providers_Jio  Sim_Providers_Vodafone
+662              DSL        One year           Electronic check          1.0  ...                   1.0                 1.0                0.0                     0.0
+3482              No        Two year               Mailed check          1.0  ...                   0.0                 1.0                0.0                     0.0
+5122              No  Month-to-month               Mailed check          0.0  ...                   0.0                 0.0                0.0                     1.0
+3556     Fiber optic  Month-to-month           Electronic check          1.0  ...                   1.0                 1.0                0.0                     0.0
+4925              No        One year               Mailed check          1.0  ...                   0.0                 0.0                0.0                     1.0
+4954              No  Month-to-month    Credit card (automatic)          1.0  ...                   1.0                 1.0                0.0                     0.0
+1851     Fiber optic  Month-to-month    Credit card (automatic)          1.0  ...                   1.0                 0.0                1.0                     0.0
+5403     Fiber optic        Two year    Credit card (automatic)          0.0  ...                   1.0                 0.0                1.0                     0.0
+1657     Fiber optic        One year           Electronic check          1.0  ...                   0.0                 0.0                0.0                     0.0
+5359     Fiber optic        One year  Bank transfer (automatic)          0.0  ...                   0.0                 1.0                0.0                     0.0
+
+[10 rows x 25 columns]
+2026-02-03 21:37:04,387 - INFO - Index(['InternetService', 'Contract', 'PaymentMethod', 'gender_Male',
+       'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'Sim_Providers_BSNL', 'Sim_Providers_Jio',
+       'Sim_Providers_Vodafone'],
+      dtype='str')
+2026-02-03 21:37:04,408 - INFO -      InternetService        Contract              PaymentMethod  gender_Male  ...  PaperlessBilling_Yes  Sim_Providers_BSNL  Sim_Providers_Jio  Sim_Providers_Vodafone
+1295     Fiber optic        One year    Credit card (automatic)          1.0  ...                   1.0                 1.0                0.0                     0.0
+1362     Fiber optic        Two year  Bank transfer (automatic)          0.0  ...                   1.0                 0.0                0.0                     1.0
+119              DSL        Two year  Bank transfer (automatic)          1.0  ...                   0.0                 0.0                0.0                     0.0
+38       Fiber optic        One year           Electronic check          0.0  ...                   1.0                 0.0                1.0                     0.0
+1046     Fiber optic  Month-to-month  Bank transfer (automatic)          0.0  ...                   0.0                 0.0                1.0                     0.0
+173               No        One year  Bank transfer (automatic)          0.0  ...                   0.0                 1.0                0.0                     0.0
+1078     Fiber optic        Two year  Bank transfer (automatic)          1.0  ...                   1.0                 0.0                0.0                     0.0
+1174     Fiber optic  Month-to-month    Credit card (automatic)          1.0  ...                   1.0                 1.0                0.0                     0.0
+945              DSL  Month-to-month               Mailed check          0.0  ...                   1.0                 0.0                1.0                     0.0
+152      Fiber optic  Month-to-month           Electronic check          1.0  ...                   1.0                 0.0                0.0                     1.0
+
+[10 rows x 25 columns]
+2026-02-03 21:37:04,408 - INFO - ================Odinal Encoding==========================
+2026-02-03 21:37:04,414 - INFO - Index(['gender_Male', 'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'Sim_Providers_BSNL', 'Sim_Providers_Jio',
+       'Sim_Providers_Vodafone', 'InternetService_Od', 'Contract_Od',
+       'PaymentMethod_Od'],
+      dtype='str')
+2026-02-03 21:37:04,434 - INFO -       gender_Male  Partner_Yes  Dependents_Yes  PhoneService_Yes  ...  Sim_Providers_Vodafone  InternetService_Od  Contract_Od  PaymentMethod_Od
+4091          1.0          0.0             1.0               1.0  ...                     0.0                 0.0          1.0               3.0
+4149          0.0          1.0             1.0               1.0  ...                     0.0                 2.0          2.0               1.0
+530           0.0          0.0             0.0               1.0  ...                     0.0                 1.0          0.0               2.0
+5233          1.0          0.0             0.0               1.0  ...                     0.0                 0.0          0.0               2.0
+5109          0.0          1.0             1.0               0.0  ...                     0.0                 0.0          2.0               1.0
+4739          1.0          0.0             0.0               1.0  ...                     0.0                 1.0          0.0               2.0
+4063          1.0          0.0             0.0               0.0  ...                     0.0                 0.0          0.0               0.0
+429           1.0          0.0             1.0               1.0  ...                     1.0                 2.0          1.0               3.0
+1183          1.0          1.0             1.0               1.0  ...                     0.0                 0.0          2.0               1.0
+3696          1.0          1.0             0.0               1.0  ...                     1.0                 0.0          0.0               0.0
+
+[10 rows x 25 columns]
+2026-02-03 21:37:04,434 - INFO - Index(['gender_Male', 'Partner_Yes', 'Dependents_Yes', 'PhoneService_Yes',
+       'MultipleLines_No phone service', 'MultipleLines_Yes',
+       'OnlineSecurity_No internet service', 'OnlineSecurity_Yes',
+       'OnlineBackup_No internet service', 'OnlineBackup_Yes',
+       'DeviceProtection_No internet service', 'DeviceProtection_Yes',
+       'TechSupport_No internet service', 'TechSupport_Yes',
+       'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'Sim_Providers_BSNL', 'Sim_Providers_Jio',
+       'Sim_Providers_Vodafone', 'InternetService_Od', 'Contract_Od',
+       'PaymentMethod_Od'],
+      dtype='str')
+2026-02-03 21:37:04,465 - INFO -       gender_Male  Partner_Yes  Dependents_Yes  PhoneService_Yes  ...  Sim_Providers_Vodafone  InternetService_Od  Contract_Od  PaymentMethod_Od
+1345          1.0          0.0             0.0               1.0  ...                     1.0                 1.0          0.0               2.0
+394           1.0          0.0             0.0               1.0  ...                     0.0                 0.0          0.0               1.0
+961           0.0          1.0             0.0               1.0  ...                     0.0                 2.0          2.0               2.0
+869           1.0          0.0             0.0               0.0  ...                     0.0                 0.0          2.0               3.0
+1229          0.0          1.0             1.0               1.0  ...                     0.0                 2.0          2.0               3.0
+163           1.0          1.0             1.0               1.0  ...                     0.0                 0.0          2.0               0.0
+1270          1.0          0.0             0.0               1.0  ...                     1.0                 1.0          0.0               1.0
+127           1.0          0.0             0.0               1.0  ...                     0.0                 1.0          0.0               3.0
+1371          1.0          0.0             0.0               1.0  ...                     0.0                 0.0          1.0               2.0
+664           0.0          0.0             0.0               0.0  ...                     0.0                 0.0          0.0               3.0
+
+[10 rows x 25 columns]
+2026-02-03 21:37:04,467 - INFO - gender_Male                             0
+Partner_Yes                             0
+Dependents_Yes                          0
+PhoneService_Yes                        0
+MultipleLines_No phone service          0
+MultipleLines_Yes                       0
+OnlineSecurity_No internet service      0
+OnlineSecurity_Yes                      0
+OnlineBackup_No internet service        0
+OnlineBackup_Yes                        0
+DeviceProtection_No internet service    0
+DeviceProtection_Yes                    0
+TechSupport_No internet service         0
+TechSupport_Yes                         0
+StreamingTV_No internet service         0
+StreamingTV_Yes                         0
+StreamingMovies_No internet service     0
+StreamingMovies_Yes                     0
+PaperlessBilling_Yes                    0
+Sim_Providers_BSNL                      0
+Sim_Providers_Jio                       0
+Sim_Providers_Vodafone                  0
+InternetService_Od                      0
+Contract_Od                             0
+PaymentMethod_Od                        0
+dtype: int64
+2026-02-03 21:37:04,467 - INFO - gender_Male                             0
+Partner_Yes                             0
+Dependents_Yes                          0
+PhoneService_Yes                        0
+MultipleLines_No phone service          0
+MultipleLines_Yes                       0
+OnlineSecurity_No internet service      0
+OnlineSecurity_Yes                      0
+OnlineBackup_No internet service        0
+OnlineBackup_Yes                        0
+DeviceProtection_No internet service    0
+DeviceProtection_Yes                    0
+TechSupport_No internet service         0
+TechSupport_Yes                         0
+StreamingTV_No internet service         0
+StreamingTV_Yes                         0
+StreamingMovies_No internet service     0
+StreamingMovies_Yes                     0
+PaperlessBilling_Yes                    0
+Sim_Providers_BSNL                      0
+Sim_Providers_Jio                       0
+Sim_Providers_Vodafone                  0
+InternetService_Od                      0
+Contract_Od                             0
+PaymentMethod_Od                        0
+dtype: int64
