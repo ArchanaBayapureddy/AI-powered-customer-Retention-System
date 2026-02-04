@@ -19,8 +19,8 @@ Each row represents **one customer**, and each column represents a **customer at
 * **`Churn`**
   * `Yes` → Customer has churned
   * `No` → Customer has not churned
-  * 
-### 📌 Feature Variables
+   
+###  Feature Variables
 **Customer Demographics**
 
 * `customerID`
@@ -49,7 +49,7 @@ Each row represents **one customer**, and each column represents a **customer at
 * `PaymentMethod`
 * `MonthlyCharges`
 * `TotalCharges`
-### ✅ Dataset Characteristics
+### Dataset Characteristics
 
 * Contains both numerical and categorical features.
 * Includes missing values (handled during preprocessing)
@@ -76,7 +76,7 @@ This method is finalized because when comparing the its standard deviation to or
 Variable transformation is applied to numerical features to improve data distribution and enhance model performance.
 In this project, transformation techniques are used to reduce skewness and make the data more suitable for machine learning algorithms.
 
-**📌 Selected Transformations**
+**Selected Transformations**:
 SeniorCitizen → Log Transformation
 tenure → No transformation (original values retained)
 MonthlyCharges → No transformation (original values retained)
@@ -93,11 +93,12 @@ In this technique, lower and upper bounds are calculated using Q1 and Q3. Values
 ## 🎯 Feature Selection
 Feature selection is applied to **numerical features only** to remove uninformative variables and improve model performance.
 In this project, **variance-based feature selection techniques** are used.
-**📌 Techniques Used:**
+**Techniques Used:**
 
 **1. Constant Feature Removal**
 * Features with zero variance are removed
 * Such features contain the same value for all records and provide no predictive power
+  
 **2. Quasi-Constant Feature Removal**
 * Features with very low variance are removed using a threshold
 * These features carry very little information and may introduce noise
