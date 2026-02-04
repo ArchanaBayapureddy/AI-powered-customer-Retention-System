@@ -69,35 +69,35 @@ Each row represents **one customer**, and each column represents a **customer at
 
 ## 🌳 Project Architecture
 Customer Churn Prediction Project
-│
-├── Data Collection
-│   └── Raw Customer Dataset
-│
-├── Data Preparation
-│   ├── Data Loading
-│   ├── Train–Test Split
-│   ├── Missing Value Handling
-│   ├── Variable Transformation
-│   ├── Outlier Handling
-│   ├── Feature Selection (Numerical Columns)
-│   ├── Categorical to Numerical Encoding
-│   ├── Data Balancing
-│   └── Feature Scaling
-│
-├── Model Development
-│   ├── Logistic Regression (Final Model)
-│   ├── Model Training
-│   ├── AUC-ROC Evaluation
-│   └── Hyperparameter Tuning
-│
-├── Model Persistence
-│   ├── Saving Trained Model (.pkl)
-│   ├── Saving Scaler
-│   
-└── Deployment
-    ├── Loading Saved Models
-    ├── Predicting Customer Churn
-    └── Integration with Application
+|
+|__ Data Collection
+|   |__ Raw Customer Dataset
+|
+|__ Data Preparation
+|   |__ Data Loading
+|   |__ Train–Test Split
+|   |__ Missing Value Handling
+|   |__ Variable Transformation
+|   |__ Outlier Handling
+|   |__ Feature Selection (Numerical Columns)
+|   |__ Categorical to Numerical Encoding
+|   |__ Data Balancing
+|   |__ Feature Scaling
+|
+|__ Model Development
+|   |__ Logistic Regression (Final Model)
+|   |__ Model Training
+|   |__ AUC-ROC Evaluation
+|   |__ Hyperparameter Tuning
+|
+|── Model Persistence
+|   |__ Saving Trained Model (.pkl)
+|   |__ Saving Scaler
+|   
+|__ Deployment
+    |__ Loading Saved Models
+    |__ Predicting Customer Churn
+    |__ Integration with Application
     
 ## 🧩 Handling Missing Values
 Missing values in the dataset are handled using Mode Imputation.
@@ -108,7 +108,7 @@ This method is finalized because when comparing the its standard deviation to or
 Variable transformation is applied to numerical features to improve data distribution and enhance model performance.
 In this project, transformation techniques are used to reduce skewness and make the data more suitable for machine learning algorithms.
 
-📌 Selected Transformations
+**📌 Selected Transformations**
 SeniorCitizen → Log Transformation
 tenure → No transformation (original values retained)
 MonthlyCharges → No transformation (original values retained)
@@ -125,7 +125,7 @@ In this technique, lower and upper bounds are calculated using Q1 and Q3. Values
 ## 🎯 Feature Selection
 Feature selection is applied to **numerical features only** to remove uninformative variables and improve model performance.
 In this project, **variance-based feature selection techniques** are used.
-# 📌 Techniques Used:
+**📌 Techniques Used:**
 
 **1. Constant Feature Removal**
 * Features with zero variance are removed
