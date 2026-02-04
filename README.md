@@ -66,39 +66,7 @@ Each row represents **one customer**, and each column represents a **customer at
 * **Scikit-learn** – Used for data preprocessing, feature selection, model training, and evaluation
 * **Pickle** – Used to save trained models and preprocessing objects
 * **Logging** – Used to track execution flow and handle errors
-
-## 🌳 Project Architecture
-Customer Churn Prediction Project
-|
-|__ Data Collection
-|   |__ Raw Customer Dataset
-|
-|__ Data Preparation
-|   |__ Data Loading
-|   |__ Train–Test Split
-|   |__ Missing Value Handling
-|   |__ Variable Transformation
-|   |__ Outlier Handling
-|   |__ Feature Selection (Numerical Columns)
-|   |__ Categorical to Numerical Encoding
-|   |__ Data Balancing
-|   |__ Feature Scaling
-|
-|__ Model Development
-|   |__ Logistic Regression (Final Model)
-|   |__ Model Training
-|   |__ AUC-ROC Evaluation
-|   |__ Hyperparameter Tuning
-|
-|── Model Persistence
-|   |__ Saving Trained Model (.pkl)
-|   |__ Saving Scaler
-|   
-|__ Deployment
-    |__ Loading Saved Models
-    |__ Predicting Customer Churn
-    |__ Integration with Application
-    
+   
 ## 🧩 Handling Missing Values
 Missing values in the dataset are handled using Mode Imputation.
 In this method, missing values are replaced with the most frequently occurring value in each feature.
