@@ -1,5 +1,5 @@
 # AI-powered-customer-Retention-System
-## 📌 Project Overview
+# 📌 Project Overview
 
 * This project focuses on predicting **customer churn** using Machine Learning techniques.
 *Customer churn refers to customers who are likely to stop using a company’s service.
@@ -67,7 +67,7 @@ Each row represents **one customer**, and each column represents a **customer at
 * **Pickle** – Used to save trained models and preprocessing objects
 * **Logging** – Used to track execution flow and handle errors
 
-**##🌳 Project Architecture**
+## 🌳 Project Architecture
 Customer Churn Prediction Project
 │
 ├── Data Collection
@@ -99,7 +99,7 @@ Customer Churn Prediction Project
     ├── Predicting Customer Churn
     └── Integration with Application
     
-**##🧩 Handling Missing Values**
+## 🧩 Handling Missing Values
 Missing values in the dataset are handled using Mode Imputation.
 In this method, missing values are replaced with the most frequently occurring value in each feature.
 This method is finalized because when comparing the its standard deviation to original standard deviation its score is low .
