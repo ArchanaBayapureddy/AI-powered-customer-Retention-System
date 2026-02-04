@@ -77,6 +77,7 @@ Variable transformation is applied to numerical features to improve data distrib
 In this project, transformation techniques are used to reduce skewness and make the data more suitable for machine learning algorithms.
 
 **Selected Transformations**:
+
 SeniorCitizen → Log Transformation
 tenure → No transformation (original values retained)
 MonthlyCharges → No transformation (original values retained)
@@ -86,6 +87,7 @@ TotalCharges → Yeo-Johnson Transformation
 Outliers are handled using the **Interquartile Range (IQR) Capping** method.
 In this technique, lower and upper bounds are calculated using Q1 and Q3. Values falling outside these bounds are capped to the nearest limit instead of being removed.
 **Why IQR Capping ??**
+
 * Preserves all data points
 * Reduces impact of extreme values
 * Improves model stability
