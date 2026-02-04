@@ -1,5 +1,5 @@
 # AI-powered-customer-Retention-System
-# 📌 Project Overview
+## 📌 Project Overview
 
 * This project focuses on predicting **customer churn** using Machine Learning techniques.
 *Customer churn refers to customers who are likely to stop using a company’s service.
@@ -10,7 +10,7 @@
 
 ## 📊 Dataset Description
 The dataset used in this project is the **Telco Customer Churn dataset**, which contains customer-level information for predicting churn.
-### 📁 Dataset Size
+**📁 Dataset Size**
 * **Number of Rows:** 7,043
 * **Number of Columns:** 21
 Each row represents **one customer**, and each column represents a **customer attribute**.
@@ -56,7 +56,7 @@ Each row represents **one customer**, and each column represents a **customer at
 * Target variable is imbalanced
 * Suitable for binary classification problems
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 * **Python** – Core programming language used to build the project
 * **Pandas** – Used for data loading, cleaning, and manipulation
